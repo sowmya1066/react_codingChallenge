@@ -16,21 +16,21 @@ const products = [
     name: "Product 2",
     price: "$30",
     description: "Description for Product 2",
-    image: "url_to_image2",
+    image: Product2,
   },
   {
     id: 3,
     name: "Product 3",
     price: "$40",
     description: "Description for Product 3",
-    image: "url_to_image3",
+    image: Product3,
   },
   {
     id: 4,
     name: "Product 4",
     price: "$50",
     description: "Description for Product 4",
-    image: "url_to_image4",
+    image: Product4,
   },
 ];
 
