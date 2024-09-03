@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProductList from "../components/ProductList";
-import ProductDetail from "../components/ProductDetail";
+import ProductList from "./components/ProductList";
+import ProductDetail from "./components/ProductDetail";
 
 const App = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
