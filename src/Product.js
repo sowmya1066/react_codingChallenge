@@ -1,10 +1,15 @@
+import Product1 from "./assets/product1.jpg";
+import Product2 from "./assets/product2.jpg";
+import Product3 from "./assets/product3.jpg";
+import Product4 from "./assets/product4.jpg";
+
 const products = [
   {
     id: 1,
     name: "Product 1",
     price: "$20",
     description: "Description for Product 1",
-    image: "url_to_image1",
+    image: Product1,
   },
   {
     id: 2,
