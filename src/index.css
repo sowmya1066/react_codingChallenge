@@ -31,3 +31,37 @@
   height: 10px !important; /* Height of the scrollbar thumb */
   border-radius: 8px 0 0 0; /* Rounded corners for the scrollbar thumb */
 }
+
+@media (max-width: 768px) {
+  #ProductListContainer {
+    width: 350px;
+    margin-left: -15px;
+  }
+  #pID {
+    height: 140px;
+  }
+  #image-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  #star {
+    width: 86px;
+    height: 30px;
+  }
+
+  #cat {
+    font-size: 5px;
+  }
+
+  #name {
+    font-size: 10px;
+  }
+
+  #descp {
+    font-size: 8px;
+  }
+  .custom-scrollbar {
+    overflow: hidden;
+  }
+}
