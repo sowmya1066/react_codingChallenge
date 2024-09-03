@@ -8,15 +8,21 @@ const ProductList = ({ products, onSelectProduct }) => {
       {products.map((product) => (
         <div
           key={product.id}
-          className="cursor-pointer p-4 border border-gray-300 rounded-lg flex items-center"
+          className="cursor-pointer w-[448px] h-[188px] bg-white border border-gray-200 shadow-sm rounded-lg flex items-center space-x-5"
           onClick={() => onSelectProduct(product)}
         >
-          {/* Image on the left side */}
-          <img
-            src={product.image}
-            alt={product.name}
-            className="w-24 h-24 object-cover rounded-lg mr-4"
-          />
+          {/* Image container on the left side */}
+          <div
+            className="w-[128px] h-[156px] bg-gray-200 rounded-lg overflow-hidden" // Apply rounded corners to the container
+            style={{ padding: "18px" }}
+          >
+            {/* Actual image */}
+            <img
+              src={product.image}
+              alt={product.name}
+              className="w-full h-full object-cover rounded-lg" // Apply rounded corners to the image
+            />
+          </div>
 
           {/* Product details on the right side */}
           <div>

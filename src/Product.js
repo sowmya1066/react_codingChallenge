@@ -1,7 +1,7 @@
-import Product1 from "./assets/product1.jpg";
-import Product2 from "./assets/product2.jpg";
-import Product3 from "./assets/product3.jpg";
-import Product4 from "./assets/product4.jpg";
+import Product1 from "./assets/product1.png";
+import Product2 from "./assets/product2.png";
+import Product3 from "./assets/product3.png";
+import Product4 from "./assets/product4.png";
 
 const products = [
   {
