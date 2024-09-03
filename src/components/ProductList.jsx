@@ -60,7 +60,10 @@ const ProductList = ({ products, onSelectProduct }) => {
               >
                 {product.description}
               </p>
-              <p className="text-lg font-semibold mt-2 w-[80px] h-[30px] gap-8">
+              <p
+                id="price"
+                className="text-lg font-semibold mt-2 w-[80px] h-[30px] gap-8"
+              >
                 {product.price}
               </p>
             </div>
