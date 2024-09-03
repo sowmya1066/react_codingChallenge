@@ -44,21 +44,28 @@ const ProductDetail = ({ product }) => {
         />
       </div>
 
-      <p className="text-lg font-semibold mb-2">{product.category}</p>
-      <h2 className="text-2xl font-bold mb-4">{product.name}</h2>
-      <p className="text-base text-[#475467] leading-[30px]">
+      <p className="text-sm font-semibold text-[#6941C6] text-[14px] leading-[20px] mt-5 ml-6">
+        {product.category}
+      </p>
+      <h2 className="text-lg font-semibold text-[20px] leading-[28px] mt-2 ml-6">
+        {product.name}
+      </h2>
+      <p className="text-sm text-[#475467] text-[16px] leading-[24px] mt-1 ml-6">
         {product.fullDescription}
       </p>
 
       {/* Star rating section */}
-      <div className="flex items-center mt-2">
+      <div className="flex items-center mt-2 ml-6">
         {stars}
         <span className="ml-2 text-base text-[#475467]">
-          {product.rating.stars} {product.rating.reviews} reviews
+          <strong className="text-black">{product.rating.stars}</strong>{" "}
+          {product.rating.reviews} reviews
         </span>
       </div>
 
-      <p className="text-lg font-semibold mb-2 mt-4">{product.price}</p>
+      <p className="text-lg font-semibold mt-2 w-[80px] h-[30px] gap-8 ml-6">
+        {product.price}
+      </p>
     </div>
   );
 };
