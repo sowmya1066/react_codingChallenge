@@ -1,4 +1,4 @@
-# React Coding Challenge 🚀
+# React Coding Challenge 👨🏻‍💻🚀
 
 This project is a simple product listing application that features both a desktop and mobile view. Users can select products from a list to view detailed information, including a star rating and product description.
 
