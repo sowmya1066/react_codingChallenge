@@ -21,7 +21,7 @@ const products = [
     name: "Casual Premium Slim Fit T-Shirts, for comfortable  ",
     description: "Slim-fitting style, contrast raglan long..",
     fullDescription:
-      "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear.",
     price: "$22.3",
     rating: { stars: 4.1, reviews: 259 },
     image: Product2,

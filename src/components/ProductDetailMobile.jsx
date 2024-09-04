@@ -1,5 +1,5 @@
 import React from "react";
-import { FaStar } from "react-icons/fa"; // Import the star icon
+import { FaStar, FaArrowLeft } from "react-icons/fa"; // Import the star icon
 
 const ProductDetailMobile = ({ product, onBack }) => {
   if (!product) {
@@ -33,18 +33,23 @@ const ProductDetailMobile = ({ product, onBack }) => {
 
   return (
     <div className="p-5">
-      <button onClick={onBack} className="text-blue-500 mb-4 flex items-center">
-        <span className="mr-2">{"< Back"}</span>
+      <button
+        id="btn"
+        onClick={onBack}
+        className="text-blue-500 mb-4 flex items-center"
+      >
+        <FaArrowLeft style={{ color: "#344054" }} />
       </button>
 
       <div
-        className="relative w-full h-[330px] bg-gray-200 rounded-lg overflow-hidden"
+        id="prodDetail"
+        className="w-[328] h-[320px] bg-[#F4F6FA] rounded-lg"
         style={{ padding: "15px" }}
       >
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-60 object-cover"
+          className="w-[200px] h-[280px] ml-12"
         />
       </div>
 

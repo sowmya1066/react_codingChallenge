@@ -77,4 +77,21 @@
     font-weight: 700;
     margin-top: -10px;
   }
+  #btn {
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 30px; /* Adjust as needed */
+    background-color: white; /* Circle background color */
+    color: black; /* Arrow color */
+    border-radius: 50%; /* Circle shape */
+    padding: 13px; /* Adjust padding to fit the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+    z-index: 10; /* Ensure button is on top */
+    border: 1px solid rgb(175, 175, 175);
+  }
+
+  #prodDetail {
+    position: relative;
+    z-index: 1;
+  }
 }
