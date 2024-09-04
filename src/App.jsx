@@ -8,7 +8,6 @@ import products from "./Product";
 const App = () => {
   // Detect mobile view
   const isMobile = window.innerWidth <= 768;
-
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   return (

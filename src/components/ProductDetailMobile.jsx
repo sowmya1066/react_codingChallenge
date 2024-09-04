@@ -1,5 +1,5 @@
 import React from "react";
-import { FaStar, FaArrowLeft } from "react-icons/fa"; // Import the star icon
+import { FaStar, FaArrowLeft } from "react-icons/fa";
 
 const ProductDetailMobile = ({ product, onBack }) => {
   if (!product) {
@@ -19,9 +19,9 @@ const ProductDetailMobile = ({ product, onBack }) => {
     );
   }
 
-  // Create an array for filled and unfilled stars based on rating
+  //array for filled and unfilled stars based on rating
   const stars = [];
-  const fullStars = Math.round(product.rating.stars); // Round the rating to nearest full star
+  const fullStars = Math.round(product.rating.stars);
   for (let i = 0; i < 5; i++) {
     stars.push(
       <FaStar

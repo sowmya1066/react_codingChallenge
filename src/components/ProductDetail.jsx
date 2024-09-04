@@ -1,5 +1,5 @@
 import React from "react";
-import { FaStar } from "react-icons/fa"; // Import the star icon
+import { FaStar } from "react-icons/fa";
 
 const ProductDetail = ({ product }) => {
   if (!product) {
@@ -19,9 +19,9 @@ const ProductDetail = ({ product }) => {
     );
   }
 
-  // Create an array for filled and unfilled stars based on rating
+  //array for filled and unfilled stars based on rating
   const stars = [];
-  const fullStars = Math.round(product.rating.stars); // Round the rating to nearest full star
+  const fullStars = Math.round(product.rating.stars);
   for (let i = 0; i < 5; i++) {
     stars.push(
       <FaStar
@@ -34,7 +34,7 @@ const ProductDetail = ({ product }) => {
   return (
     <div className="p-5">
       <div
-        className="relative w-[634px] h-[330px] bg-gray-200 rounded-lg overflow-hidden ml-5 mt-0"
+        className="relative w-[634px] h-[330px] bg-[#F4F6FA] rounded-lg overflow-hidden ml-5 mt-0"
         style={{ padding: "15px" }}
       >
         <img
