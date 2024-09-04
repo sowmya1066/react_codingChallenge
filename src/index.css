@@ -67,6 +67,7 @@
 
   #descp {
     font-size: 8px;
+    font-weight: 500;
   }
   .custom-scrollbar {
     overflow: hidden;
