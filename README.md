@@ -1,8 +1,8 @@
-# React Coding Challenge
+# React Coding Challenge 🚀
 
 This project is a simple product listing application that features both a desktop and mobile view. Users can select products from a list to view detailed information, including a star rating and product description.
 
-## Demo
+## Demo 🎞️
 
 A live demo of the project can be found [here](#). (Add your demo link here)
 
@@ -15,10 +15,10 @@ A live demo of the project can be found [here](#). (Add your demo link here)
 
 ## Technologies Used
 
-- **React**: JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **React Icons**: For including popular icons in the project.
-- **Custom CSS**: For additional styling.
+- **⚛️React**: JavaScript library for building user interfaces.
+- **#️⃣Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **⚛React Icons**: For including popular icons in the project.
+- **</>Custom CSS**: For additional styling.
 
 ## Getting Started
 
