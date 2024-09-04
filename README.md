@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# React Coding Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple product listing application that features both a desktop and mobile view. Users can select products from a list to view detailed information, including a star rating and product description.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+A live demo of the project can be found [here](#). (Add your demo link here)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design with support for both desktop and mobile views.
+- Product list view with individual product selection.
+- Detailed product view with a description, image, star rating, and pricing.
+- Smooth transitions between list and detail views.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Icons**: For including popular icons in the project.
+- **Custom CSS**: For additional styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running, follow these simple steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repo:
+   git clone https://github.com/sowmya1066/react_codingChallenge.git
+   
+2. Install NPM packages:
+    npm install
+3. Start the development server:
+    npm start
+    
+4. Open your browser and navigate to `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here's a quick overview of the project's structure:
+![image](https://github.com/user-attachments/assets/d80654af-ea82-4347-bea3-108145e20cf6)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Components Overview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `ProductList`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Renders a list of products.
+- Each product displays an image, category, name, description, price, and star rating.
+- Clicking on a product will navigate to the product details view.
 
-### Code Splitting
+### `ProductDetail`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Displays detailed information about a selected product.
+- Includes an image, full description, star rating, and price.
 
-### Analyzing the Bundle Size
+### `ProductDetailMobile`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Similar to `ProductDetail` but optimized for mobile screens.
+- Includes a back button to return to the product list.
 
-### Making a Progressive Web App
+### `MobileView`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Handles the mobile view of the application.
+- Switches between the product list and product details based on user interaction.
 
-### Advanced Configuration
+### `App`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Main component that determines whether to display the desktop or mobile view based on the screen size.
 
-### Deployment
+### `Product`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- The Product.js file is a core part of the application, responsible for defining and exporting an array of product objects. Each object within the array represents a specific product, containing key details.
+- This file serves as a data source for rendering product information within the application, allowing you to easily manage and update the products displayed to users.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
