@@ -35,7 +35,7 @@
 @media (max-width: 768px) {
   #ProductListContainer {
     width: 350px;
-    margin-left: -15px;
+    margin-left: -10px;
   }
   #pID {
     height: 132px;
