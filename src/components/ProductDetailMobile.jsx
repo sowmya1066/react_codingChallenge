@@ -19,7 +19,7 @@ const ProductDetailMobile = ({ product, onBack }) => {
     );
   }
 
-  //array for filled and unfilled stars based on rating
+  //array for filled and unfilled stars based on ratings
   const stars = [];
   const fullStars = Math.round(product.rating.stars);
   for (let i = 0; i < 5; i++) {
