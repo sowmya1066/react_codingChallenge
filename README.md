@@ -8,7 +8,7 @@ A live demo of the project can be found [here](#). (Add your demo link here)
 
 ## Features
 
-- Responsive design with support for both desktop and mobile views.
+- Responsive design with support for both desktop and mobile view.
 - Product list view with individual product selection.
 - Detailed product view with a description, image, star rating, and pricing.
 - Smooth transitions between list and detail views.
@@ -35,19 +35,16 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repo:
    git clone https://github.com/sowmya1066/react_codingChallenge.git
-   
 2. Install NPM packages:
-    npm install
+   npm install
 3. Start the development server:
-    npm start
-    
+   npm start
 4. Open your browser and navigate to `http://localhost:3000`.
 
 ## Project Structure
 
 Here's a quick overview of the project's structure:
 ![image](https://github.com/user-attachments/assets/d80654af-ea82-4347-bea3-108145e20cf6)
-
 
 ## Components Overview
 
@@ -80,5 +77,3 @@ Here's a quick overview of the project's structure:
 
 - The Product.js file is a core part of the application, responsible for defining and exporting an array of product objects. Each object within the array represents a specific product, containing key details.
 - This file serves as a data source for rendering product information within the application, allowing you to easily manage and update the products displayed to users.
-
-
