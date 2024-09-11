@@ -54,7 +54,6 @@ const ProductDetail = ({ product }) => {
         {product.fullDescription}
       </p>
 
-      {/* Star rating section */}
       <div className="flex items-center mt-2 ml-6">
         {stars}
         <span className="ml-2 text-base text-[#475467]">
