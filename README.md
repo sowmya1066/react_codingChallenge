@@ -4,7 +4,7 @@ This project is a simple product listing application that features both a deskto
 
 ## Demo 🎞️
 
-A live demo of the project can be found [here](#). (Add your demo link here)
+A live demo of the project can be found [here](#).
 
 ## Features
 
